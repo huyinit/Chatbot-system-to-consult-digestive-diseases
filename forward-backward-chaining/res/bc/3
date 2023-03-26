@@ -1,0 +1,18 @@
+# Studentas Redas Jatkauskas, Informatika, 4 kursas, 4 grupė, 2019-11-26
+# 1 testas
+# 1) Taisyklės:
+Z C D
+D C
+C B
+B A
+A D
+D T
+A G
+B H
+C J
+
+# 2) Faktai:
+T
+
+# 3) Tikslas:
+Z

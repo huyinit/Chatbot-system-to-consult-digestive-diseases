@@ -1,0 +1,22 @@
+PART 1. Data
+  1) Productions
+    R1: A->L
+    R2: A->K
+    R3: L->K
+    R4: D->M
+    R5: D->M
+    R6: F,B->Z
+    R7: C,D->F
+    R8: A->D
+
+  2) Facts
+    A, B, C.
+
+  3) Goal
+    O.
+
+PART 2. Execution
+  1) Goal O. No productions for deduction. Returning, FAIL.
+
+PART 3. Results
+  1) Goal O unreachable.

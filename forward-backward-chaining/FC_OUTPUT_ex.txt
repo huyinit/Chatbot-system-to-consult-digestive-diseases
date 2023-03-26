@@ -1,0 +1,45 @@
+PART 1. Data
+  1) Productions
+    R1: S01->D01
+    R2: D01->D02
+    R3: S02->S03
+    R4: S06,S04->S07
+    R5: S05,S02->S06
+    R6: S01->S02
+
+  2) Facts S01, S04.
+
+  3) Goal S07
+
+PART 2. Execution
+  1 ITERATION
+    R1:S01->D01 được áp dụng. Cập nhật flag1. Facts S01, S04 suy ra D01.
+
+  2 ITERATION
+    R1:S01->D01 bỏ qua, vì flag1 đã được cập nhật.
+    R2:D01->D02 được áp dụng. Cập nhật flag1. Facts S01, S04 suy ra D01, D02.
+
+  3 ITERATION
+    R1:S01->D01 bỏ qua, vì flag1 đã được cập nhật.
+    R2:D01->D02 bỏ qua, vì flag1 đã được cập nhật.
+    R3:S02->S03 Không được áp dụng, vì thiếu fact: S02
+    R4:S06,S04->S07 Không được áp dụng, vì thiếu fact: S06
+    R5:S05,S02->S06 Không được áp dụng, vì thiếu fact: S05
+    R6:S01->S02 được áp dụng. Cập nhật flag1. Facts S01, S04 suy ra D01, D02, S02.
+
+  4 ITERATION
+    R1:S01->D01 bỏ qua, vì flag1 đã được cập nhật.
+    R2:D01->D02 bỏ qua, vì flag1 đã được cập nhật.
+    R3:S02->S03 được áp dụng. Cập nhật flag1. Facts S01, S04 suy ra D01, D02, S02, S03.
+
+  5 ITERATION
+    R1:S01->D01 bỏ qua, vì flag1 đã được cập nhật.
+    R2:D01->D02 bỏ qua, vì flag1 đã được cập nhật.
+    R3:S02->S03 bỏ qua, vì flag1 đã được cập nhật.
+    R4:S06,S04->S07 Không được áp dụng, vì thiếu fact: S06
+    R5:S05,S02->S06 Không được áp dụng, vì thiếu fact: S05
+    R6:S01->S02 bỏ qua, vì flag1 đã được cập nhật.
+
+PART 3. Results
+  1) Goal S07 unreachable.
+  2) Đường đi suy diễn được là:R1, R2, R6, R3
