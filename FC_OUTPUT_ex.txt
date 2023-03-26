@@ -1,0 +1,77 @@
+PART 1. Dữ liệu (Luật)
+  1) Productions
+    R1: S02->D01
+    R2: S02->D02
+    R3: S02->D03
+    R4: S03->D01
+    R5: S04->D01
+    R6: S05->D01
+    R7: S06->D05
+    R8: S07->D06
+    R9: S08->D04
+    R10: S09->D01
+    R11: S10->D05
+    R12: S11->D06
+    R13: S12->D03
+    R14: S12->D06
+    R15: S13->D01
+    R16: S13->D04
+    R17: S14->D02
+    R18: S16->D03
+    R19: S17->D03
+    R20: S18->D01
+    R21: S18->D04
+    R22: S19->D04
+    R23: S20->D04
+    R24: S20->D05
+    R25: S21->D05
+    R26: S21->D06
+    R27: S22->D03
+    R28: S22->D04
+    R29: S26->D02
+    R30: S27->D02
+    R31: S29->D02
+    R32: S30->D05
+
+  2) Facts .
+
+  3) Goal None
+
+PART 2. Suy Diễn
+  1 ITERATION
+    R1:S02->D01 Không được áp dụng, vì thiếu fact: S02
+    R2:S02->D02 Không được áp dụng, vì thiếu fact: S02
+    R3:S02->D03 Không được áp dụng, vì thiếu fact: S02
+    R4:S03->D01 Không được áp dụng, vì thiếu fact: S03
+    R5:S04->D01 Không được áp dụng, vì thiếu fact: S04
+    R6:S05->D01 Không được áp dụng, vì thiếu fact: S05
+    R7:S06->D05 Không được áp dụng, vì thiếu fact: S06
+    R8:S07->D06 Không được áp dụng, vì thiếu fact: S07
+    R9:S08->D04 Không được áp dụng, vì thiếu fact: S08
+    R10:S09->D01 Không được áp dụng, vì thiếu fact: S09
+    R11:S10->D05 Không được áp dụng, vì thiếu fact: S10
+    R12:S11->D06 Không được áp dụng, vì thiếu fact: S11
+    R13:S12->D03 Không được áp dụng, vì thiếu fact: S12
+    R14:S12->D06 Không được áp dụng, vì thiếu fact: S12
+    R15:S13->D01 Không được áp dụng, vì thiếu fact: S13
+    R16:S13->D04 Không được áp dụng, vì thiếu fact: S13
+    R17:S14->D02 Không được áp dụng, vì thiếu fact: S14
+    R18:S16->D03 Không được áp dụng, vì thiếu fact: S16
+    R19:S17->D03 Không được áp dụng, vì thiếu fact: S17
+    R20:S18->D01 Không được áp dụng, vì thiếu fact: S18
+    R21:S18->D04 Không được áp dụng, vì thiếu fact: S18
+    R22:S19->D04 Không được áp dụng, vì thiếu fact: S19
+    R23:S20->D04 Không được áp dụng, vì thiếu fact: S20
+    R24:S20->D05 Không được áp dụng, vì thiếu fact: S20
+    R25:S21->D05 Không được áp dụng, vì thiếu fact: S21
+    R26:S21->D06 Không được áp dụng, vì thiếu fact: S21
+    R27:S22->D03 Không được áp dụng, vì thiếu fact: S22
+    R28:S22->D04 Không được áp dụng, vì thiếu fact: S22
+    R29:S26->D02 Không được áp dụng, vì thiếu fact: S26
+    R30:S27->D02 Không được áp dụng, vì thiếu fact: S27
+    R31:S29->D02 Không được áp dụng, vì thiếu fact: S29
+    R32:S30->D05 Không được áp dụng, vì thiếu fact: S30
+
+PART 3. Kết quả
+  1) Kết quả là :  .
+  2) Đường đi suy diễn được là:
