@@ -3,6 +3,10 @@ Chatbot system to consult digestive diseases
 
 Forward and Backward chaining in production system
 
+
+# youtube : https://www.youtube.com/watch?v=7jvvfLvPcbk&list=PLDYXQL9eThN4dYi6KFhC4ufR7IhOe88HE&index=3
+
+
 Phần 1:
 ![image](https://user-images.githubusercontent.com/82762841/227753659-ddc3adae-2469-4555-90d1-c5713db61054.png)
 
